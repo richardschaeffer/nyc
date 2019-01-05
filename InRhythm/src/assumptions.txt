@@ -1,0 +1,18 @@
+Assumptions:
+
+For example, “The cow jumped over the moon.” should return 6 and “jumped”.
+
+	This requirement is ambiguous because it doesn't describe the data type of the return value.  
+	
+	I am assuming that "return" does not explicitly mean return both of these as values
+	in the return statement, either as an object with these properties or some other way 
+	of returning both values simultaneously.  In this case, I am just printing them to output
+	for ease since they are already properties of a declared Sentence object.  
+	
+	If this was the intended behavior, I included a second method (getAttributesString) 
+	to return them both as a combined string.  It could also be returned as a structure
+	containing both values but I don't think that was the intended requirement.  
+	
+Create unit tests to test that method, reworking your code if needed.
+	
+	A specific framework was not indicated, just used jUnit.  

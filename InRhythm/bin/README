@@ -1,0 +1,9 @@
+
+
+Open project in Eclipse
+Run application
+
+Unit Tests can be run with jUnit5 inside of Eclipse
+
+Alternatively, you can browse to the directory and run on command line with 
+"javac SentenceAttributes.java"
